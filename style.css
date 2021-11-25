@@ -3,8 +3,8 @@ body {
 }
 
 section {
-  height: 500px;
-  background-color: yellow;
+  /* height: 500px; */
+  background-color: white;
   border: 1px solid black;
 }
 
@@ -86,10 +86,31 @@ li {
 }
 
 .socials {
-  margin-right: 10px;
+  /* margin-right: 1px; */
   margin-bottom: 60px;
 }
 
 .social {
-  margin: 20px;
+  margin: 100px;
+}
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+  /* margin: 80px; */
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.headshot {
+  width: 250px;
+  border-radius: 150px;
+}
+
+.project-card {
+  width: 200px;
+  height: 500px;
+  border: 1px solid black;
 }
