@@ -1,0 +1,95 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  height: 500px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.hero {
+  background-color: #1c1d25;
+  height: 100vh;
+  /* width: auto; */
+  color: white;
+  font-size: 40px;
+}
+
+footer {
+  height: 500px;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 90px;
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.hero-area {
+  display: flex;
+
+  height: 100%; /* of what parent div it's in which is class HERO */
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  /* width: 200px; */
+  /* list-style-type: none; */
+}
+
+.hero-text {
+  margin-left: 80px;
+
+  /* font-size: 90px; */
+}
+
+.button {
+  font-size: 36px;
+  font-weight: 500;
+  width: 200px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: coral;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #ef744b;
+}
+
+.button:active {
+  background-color: #a9a9a9;
+  color: #808080;
+}
+
+.socials {
+  margin-right: 10px;
+  margin-bottom: 60px;
+}
+
+.social {
+  margin: 20px;
+}
