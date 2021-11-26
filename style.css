@@ -16,9 +16,17 @@ section {
   font-size: 40px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 footer {
   height: 500px;
+  color: white;
   background-color: black;
+  text-align: center;
+  padding: 80px;
 }
 
 nav {
@@ -112,17 +120,28 @@ h2 {
 
 .headshot {
   width: 250px;
-  border-radius: 150px;
+  height: 250px;
+  border-radius: 50%;
 }
 
 .project-card {
-  width: 300px;
+  width: 400px;
   height: 500px;
   box-shadow: 5px 5px 20px rgb(197, 195, 195);
+  margin: 10px;
 }
 .project-container {
   display: flex;
   justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 500px; */
+    /* height: auto; */
+  }
 }
 
 .sub-section-alternative {
@@ -142,4 +161,9 @@ h2 {
 hr {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.subtext > a {
+  text-decoration: none;
+  color: green;
 }
